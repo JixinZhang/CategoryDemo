@@ -51,6 +51,11 @@
 
 @end
 
+/*
+ *  👇给UIView添加了一个emptyView category
+ *  参考资料：http://www.jianshu.com/p/535d1574cb86
+ */
+
 @implementation UIView (EmptyView)
 
 - (BaseEmptyView *)baseEmptyView {
